@@ -124,7 +124,7 @@ html {
     line-height: 26px;
     font-family: 'Zing Script Rust SB Demo Base';
     font-style: italic;
-    color: #2F4F4F;
+    color: rgb(164, 1, 1);
     text-shadow: 1px 0 #FFE4E1, -1px 0 #FFE4E1, 0 1px #FFE4E1, 0 -1px #FFE4E1,
                1px 1px #FFE4E1, -1px -1px #FFE4E1, 1px -1px #FFE4E1, -1px 1px #FFE4E1;
 }
