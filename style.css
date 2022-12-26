@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @font-face {
-    font-family: 'Zing Script Rust SB Demo Base';
-    src: url('ZingScriptRustSBDemo-Base.woff2') format('woff2'),
-        url('ZingScriptRustSBDemo-Base.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
+    font-family: 'Lifehack Basic';
+    src: url('LifehackBasic-Regular.woff2') format('woff2'),
+        url('LifehackBasic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -85,9 +86,10 @@ html {
     margin: 0;
     text-align: center;
     font-size: 84px;
-    font-family: 'Rochester', cursive;
-    color: #fff;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    font-family: 'Lifehack Basic';
+    color: rgb(164, 1, 1);
+    text-shadow: 1px 0 #FFE4E1, -1px 0 #FFE4E1, 0 1px #FFE4E1, 0 -1px #FFE4E1,
+               1px 1px #FFE4E1, -1px -1px #FFE4E1, 1px -1px #FFE4E1, -1px 1px #FFE4E1;
 }
 .snow {
     position: fixed;
@@ -116,13 +118,16 @@ html {
     object-fit: cover;
 }
 .text {
+    padding: 30px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
     max-width: 80%;
     grid-column: 1 / 4;
     position: relative;
     z-index: 3;
     font-size: 22px;
     line-height: 26px;
-    font-family: 'Zing Script Rust SB Demo Base';
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     color: rgb(164, 1, 1);
     text-shadow: 1px 0 #FFE4E1, -1px 0 #FFE4E1, 0 1px #FFE4E1, 0 -1px #FFE4E1,
